@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gay.pyrrha.bifrost.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PingResultS2CPacketMixin",
+    "ServerCommonNetworkHandlerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
